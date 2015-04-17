@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0778E2D-C548-496B-8160-CFFF508A0DFD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MemeMeOlivia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD82936451E2AF9CB4F1A72CC26256D8546D64E4</key>
+		<string>https://github.com/OYKW/MemeMe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MemeMeOlivia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD82936451E2AF9CB4F1A72CC26256D8546D64E4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OYKW/MemeMe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD82936451E2AF9CB4F1A72CC26256D8546D64E4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD82936451E2AF9CB4F1A72CC26256D8546D64E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MemeMeOlivia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
