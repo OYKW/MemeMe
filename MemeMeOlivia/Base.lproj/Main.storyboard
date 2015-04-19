@@ -9,7 +9,7 @@
         <!--Navigation Controller-->
         <scene sceneID="BbH-2d-gpa">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="Zy4-KH-vIp" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MemeEditorNav" automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="Zy4-KH-vIp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="b9u-ou-sp8">
@@ -31,7 +31,7 @@
         <!--Geverate Meme View Controller-->
         <scene sceneID="ziz-Wm-m05">
             <objects>
-                <viewController id="t2T-ad-u4g" customClass="GeverateMemeViewController" customModule="MemeMeOlivia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemeEditor" id="t2T-ad-u4g" customClass="GeverateMemeViewController" customModule="MemeMeOlivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9yx-8i-ZPy"/>
                         <viewControllerLayoutGuide type="bottom" id="Klx-qX-xGf"/>
@@ -252,7 +252,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TDA-aX-PCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-477" y="1727"/>
+            <point key="canvasLocation" x="-57" y="1109"/>
         </scene>
         <!--Detailed View Controller-->
         <scene sceneID="Lgx-hf-40O">
@@ -558,6 +558,6 @@
         <image name="Table" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Z9Q-1g-DCg"/>
+        <segue reference="hBs-Xn-Yrs"/>
     </inferredMetricsTieBreakers>
 </document>

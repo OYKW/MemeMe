@@ -11,14 +11,24 @@ import UIKit
 class TableViewController: UITableViewController, UITableViewDataSource {
 
     var memes: [Meme]!
-    
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+                
         let applicationDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         self.memes = applicationDelegate.memes
         
+        //If there are no sent memes present the meme editor
+        if self.memes.isEmpty == true {
+            let editorController = self.storyboard?.instantiateViewControllerWithIdentifier("MemeEditorNav") as! UINavigationController
+            self.presentViewController(editorController, animated: true, completion: nil)
+        }
+        
+        
+        
+        
     }
+    
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -26,7 +36,7 @@ class TableViewController: UITableViewController, UITableViewDataSource {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return memes.count
+        return memes!.count
     }
 
 

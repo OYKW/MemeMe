@@ -64,7 +64,9 @@ class GeverateMemeViewController: UIViewController, UIImagePickerControllerDeleg
         shareButton.enabled = (self.imageView.image != nil)
         
         self.topTextField.placeholder = "TOP"
+        self.topTextField.enabled = (self.imageView.image != nil)
         self.buttomTextField.placeholder = "BUTTOM"
+        self.buttomTextField.enabled = (self.imageView.image != nil)
         
         
     }
